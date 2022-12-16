@@ -71,16 +71,21 @@ function postingDetails(patientDetails){
 .then(response=>response.json())
 .then(data=>console.log(data))
 }
+// let button = document.getElementById("btn")
+// button.addEventListener("click", ()=>{
+
+// })
+
 
 
 // // DELETE
-// function deleteDatabase(id){
-//     fetch(`http://localhost:3000/patientDetails/$(id)`),{
-//         method:"Delete",
-//         headers:{
-//             "Content-Type":"application/json"
-//         },
-// }
-// .then(response=>response.json)
-// .then(data=>console.log(data))
-// }
+function deleteDatabase(id){
+    fetch(`http://localhost:3000/patientDetails/$(id)`),{
+        method:"Delete",
+        headers:{
+            "Content-Type":"application/json"
+        },
+}
+.then(response=>response.json)
+.then(data=>console.log(data))
+}

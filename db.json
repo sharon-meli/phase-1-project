@@ -35,6 +35,15 @@
       "residence": "Kisumu",
       "date": "2022-12-17",
       "weight": "40"
+    },
+    {
+      "id": "5",
+      "name": "Felix Naftali",
+      "gender": "male",
+      "age": "45",
+      "residence": "Nakuru",
+      "date": "2022-12-16",
+      "weight": "65"
     }
   ]
 }
