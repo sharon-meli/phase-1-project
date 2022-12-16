@@ -44,21 +44,21 @@ fetch("http://localhost:3000/patientDetails")
 // let form = document.querySelector("#patientForm")
 // form = document.addEventListener("submit", postingData)
 
-// function postingData(event){
-//     event.preventDefault()
-//     let patientDetails = {
-//         id: event.target.idInput.value,
-//         name: event.target.nameInput.value,
-//         gender: event.target.genderInput.value,
-//         age: event.target.ageInput.value,
-//         residence: event.target.residenceInput.value,
-//         date:event.target.dateInput.value,
-//         weight: event.target.weightInput.value
+function postingData(event){
+    event.preventDefault()
+    let patientDetails = {
+        id: event.target.idInput.value,
+        name: event.target.nameInput.value,
+        gender: event.target.genderInput.value,
+        age: event.target.ageInput.value,
+        residence: event.target.residenceInput.value,
+        date:event.target.dateInput.value,
+        weight: event.target.weightInput.value
     
-// }
-// console.log(patientDetails)
-// postingDetails(patientDetails)
-// }
+}
+console.log(patientDetails)
+postingDetails(patientDetails)
+}
 // function postingDetails(patientDetails){
 //     fetch("http://localhost:3000/patientDetails",{
 //     method :"POST",
