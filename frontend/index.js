@@ -2,11 +2,11 @@
 //     fetchAllPatients()
 // })
 // // GET
-// function patientsDetails(data){
-// fetch("http://localhost:3000/patientDetails")
-// .then(response=>response.json())
-// .then(data=>console.log(data))
-// }
+function patientsDetails(data){
+fetch("http://localhost:3000/patientDetails")
+.then(response=>response.json())
+.then(data=>console.log(data))
+}
 //  function fetchAllPatients(){
 //     return fetch("http://localhost:3000/patientDetails")
 //     .then(response=>response.json())
