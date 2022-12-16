@@ -7,14 +7,14 @@ fetch("http://localhost:3000/patientDetails")
 .then(response=>response.json())
 .then(data=>console.log(data))
 }
-//  function fetchAllPatients(){
-//     return fetch("http://localhost:3000/patientDetails")
-//     .then(response=>response.json())
-//     .then(patientData=>patientData.forEach(data=>{
-//         displayEachPatient(data)
+ function fetchAllPatients(){
+    return fetch("http://localhost:3000/patientDetails")
+    .then(response=>response.json())
+    .then(patientData=>patientData.forEach(data=>{
+        displayEachPatient(data)
     
-//     })) 
-// }
+    })) 
+}
 // // POST
 // function displayEachPatient(data){
 //     const divBody = document.getElementById("displayPatients")
